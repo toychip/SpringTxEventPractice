@@ -16,4 +16,8 @@ public class CoreEntity {
     private Long id;
 
     private String content;
+
+    public CoreEntity(String content) {
+        this.content = content;
+    }
 }

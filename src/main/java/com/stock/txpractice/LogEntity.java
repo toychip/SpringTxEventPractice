@@ -16,4 +16,8 @@ public class LogEntity {
     private Long id;
 
     private String content;
+
+    public LogEntity(String content) {
+        this.content = content;
+    }
 }
